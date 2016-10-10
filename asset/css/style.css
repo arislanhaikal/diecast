@@ -69,6 +69,9 @@ body {
 .navbar .navbar-right a {
 	padding: 7px 5px;
 }
+.navbar .dropdown-menu a {
+	padding: 7px 20px;
+}
 .navbar .navbar-right button {
 	min-width: 110px;
 	padding: 3px;
@@ -81,7 +84,12 @@ body {
     	margin-left: -15px;
 	}
 }
-
+.navbar .navbar-right img {
+	height: 25px;
+	width: 25px;
+	border-radius: 50%;
+	border:solid 1px #ddd;
+}
 /* HEADER */
 header {
 	margin-bottom: 20px;
@@ -377,4 +385,47 @@ footer a {
 }
 .statistic .copyright {
 	font-size: 13px;
+}
+/* UPLOAD */
+.uploader .form-upload {
+	padding: 20px 0;
+	border-bottom: solid 1px #ddd;
+    margin-bottom: 20px;
+}
+.img-upload {
+	padding: 0 5px;
+	overflow: hidden;
+	height: 285px;
+}
+.img-upload .cover {
+	height: 200px;
+	overflow: hidden;
+	position: relative;
+	border: solid 1px #ddd;
+    border-bottom: none;
+}
+.img-upload img {
+	object-fit: cover;
+}
+.img-upload .remove {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	background:rgba(0,0,0,.8);
+	color: #fff;
+	text-align: center;
+}
+.img-upload .remove:hover {
+	color: red;
+}
+.img-upload .form-control {
+	margin-bottom: 2px;
+}
+.img-upload .deck {
+	background: #fff;
+	padding:5px 5px 3px;
+	border: solid 1px #ddd;
 }
