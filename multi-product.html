@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>upload - diecast</title>
+  <title>product - diecast</title>
 
   <!-- Templates -->
   <link href="asset/css/bootstrap.min.css" rel="stylesheet">
@@ -36,12 +36,12 @@
               <li><a href="#"><i class="fa fa-info-circle"></i> About</a></li> 
             </ul>
             <ul class="nav navbar-nav navbar-right">
-              <!-- 
+              
               <li><a href="#"><button class="btn btn-primary btn-xs" data-toggle="modal" data-target="#register">Register</button></a></li>
-              <li><a href="#"><button class="btn btn-warning btn-xs" data-toggle="modal" data-target="#login">Login</button></a></li> -->
+              <li><a href="#"><button class="btn btn-warning btn-xs" data-toggle="modal" data-target="#login">Login</button></a></li>
 
               <!-- AFTER LOGIN -->
-              <li class="dropdown">
+              <!-- <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">arislanhaikal <img src="asset/img/avatar.png" alt="avatar"></a>
                 <ul class="dropdown-menu" role="menu">
                   <li><a href="open-bid.html">Open Bid</a></li>
@@ -50,7 +50,7 @@
                   <li class="divider"></li>
                   <li><a href="#">Logout</a></li>
                 </ul>
-              </li>
+              </li> -->
 
             </ul> 
           </div> 
@@ -102,60 +102,145 @@
         </div>
       </header>
       <div class="container">
-        <div class="col-md-9 uploader">
-            <label class="btn btn-lg btn-block btn-primary">
-                <i class="fa fa-upload"></i> Add File <input type="file" id="files" name="files[]" style="display: none;" multiple>
-            </label>
-            <div class="row form-upload">
-              <form role="form">
-                <div class="col-md-6">
-                      <div class="form-group">
-                        <label for="title">Title</label>
-                        <input type="text" class="form-control" id="title" placeholder="Title">
-                      </div>
-                      <div class="form-group">
-                        <label for="description">Description</label>
-                        <textarea rows="3" class="form-control" id="description" placeholder="Description"></textarea>
-                      </div>
+        <!-- PRODUCT -->
+        <div class="col-md-9">
+          <div class="tab-content katalog">
+              <h2>Hot Wheels Cars 1 Hot Wheels Cars</h2>
+              <div class="row">
+                <div class="col-md-3 items">
+                  <div class="img">
+                    <img src="asset/img/product/6.jpg" alt="product-1" class="img-responsive">
+                  </div>
+                  <div class="deck">
+                    <h3>Hot Wheels Cars 1 Hot Wheels Cars 1</h3>
+                    <p>Starting Bid Rp 5.000</p>
+                    <span class="still"><i class="fa fa-clock-o"></i> 3 day, 2 hour, 5 minute</span>
+                  </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="form-group">
-                      <label for="starting">Starting Bid</label>
-                      <div class="input-group">
-                        <div class="input-group-addon">Rp</div>
-                        <input type="number" class="form-control" id="starting" placeholder="Starting Bid">
-                      </div>
-                    </div>
-                    <div class="row">
-                      <div class="col-md-6">
-                        <div class="form-group">
-                          <label for="date">End Bid</label>
-                            <input type="date" class="form-control" id="date">
-                        </div>
-                      </div>
-                      <div class="col-md-6">
-                        <div class="form-group">
-                          <label for="time">&nbsp;</label>
-                            <input type="time" class="form-control" id="time">
-                        </div>
-                      </div>
-                    </div>
-                    
-                    <button type="submit" class="btn btn-warning btn-block">UPLOAD</button>
+                <div class="col-md-3 items">
+                  <div class="img">
+                    <img src="asset/img/product/6.jpg" alt="product-1" class="img-responsive">
+                  </div>
+                  <div class="deck">
+                    <h3>Hot Wheels Cars 2</h3>
+                    <p>Starting Bid Rp 5.000</p>
+                    <span class="long"><i class="fa fa-clock-o"></i> 3 day, 2 hour, 5 minute</span>
+                  </div>
                 </div>
-              </form>
+                <div class="col-md-3 items">
+                  <div class="img">
+                    <img src="asset/img/product/6.jpg" alt="product-1" class="img-responsive">
+                  </div>
+                  <div class="deck">
+                    <h3>Hot Wheels Cars 3</h3>
+                    <p>Starting Bid Rp 5.000</p>
+                    <span class="medium"><i class="fa fa-clock-o"></i> 3 day, 2 hour, 5 minute</span>
+                  </div>
+                </div>
+                <div class="col-md-3 items">
+                  <div class="img">
+                    <img src="asset/img/product/6.jpg" alt="product-1" class="img-responsive">
+                  </div>
+                  <div class="deck">
+                    <h3>Hot Wheels Cars 4</h3>
+                    <p>Starting Bid Rp 5.000</p>
+                    <span class="quick"><i class="fa fa-clock-o"></i> 3 day, 2 hour, 5 minute</span>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-3 items">
+                  <div class="img">
+                    <img src="asset/img/product/6.jpg" alt="product-1" class="img-responsive">
+                  </div>
+                  <div class="deck">
+                    <h3>Hot Wheels Cars 1</h3>
+                    <span class="still"><i class="fa fa-clock-o"></i> 3 day, 2 hour, 5 minute</span>
+                  </div>
+                </div>
+                <div class="col-md-3 items">
+                  <div class="img">
+                    <img src="asset/img/product/6.jpg" alt="product-1" class="img-responsive">
+                  </div>
+                  <div class="deck">
+                    <h3>Hot Wheels Cars 2</h3>
+                    <span class="long"><i class="fa fa-clock-o"></i> 3 day, 2 hour, 5 minute</span>
+                  </div>
+                </div>
+                <div class="col-md-3 items">
+                  <div class="img">
+                    <img src="asset/img/product/6.jpg" alt="product-1" class="img-responsive">
+                  </div>
+                  <div class="deck">
+                    <h3>Hot Wheels Cars 3</h3>
+                    <span class="medium"><i class="fa fa-clock-o"></i> 3 day, 2 hour, 5 minute</span>
+                  </div>
+                </div>
+                <div class="col-md-3 items">
+                  <div class="img">
+                    <img src="asset/img/product/6.jpg" alt="product-1" class="img-responsive">
+                  </div>
+                  <div class="deck">
+                    <h3>Hot Wheels Cars 4</h3>
+                    <span class="quick"><i class="fa fa-clock-o"></i> 3 day, 2 hour, 5 minute</span>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-3 items">
+                  <div class="img">
+                    <img src="asset/img/product/6.jpg" alt="product-1" class="img-responsive">
+                  </div>
+                  <div class="deck">
+                    <h3>Hot Wheels Cars 1</h3>
+                    <span class="still"><i class="fa fa-clock-o"></i> 3 day, 2 hour, 5 minute</span>
+                  </div>
+                </div>
+                <div class="col-md-3 items">
+                  <div class="img">
+                    <img src="asset/img/product/6.jpg" alt="product-1" class="img-responsive">
+                  </div>
+                  <div class="deck">
+                    <h3>Hot Wheels Cars 2</h3>
+                    <span class="long"><i class="fa fa-clock-o"></i> 3 day, 2 hour, 5 minute</span>
+                  </div>
+                </div>
+                <div class="col-md-3 items">
+                  <div class="img">
+                    <img src="asset/img/product/6.jpg" alt="product-1" class="img-responsive">
+                  </div>
+                  <div class="deck">
+                    <h3>Hot Wheels Cars 3</h3>
+                    <span class="medium"><i class="fa fa-clock-o"></i> 3 day, 2 hour, 5 minute</span>
+                  </div>
+                </div>
+                <div class="col-md-3 items">
+                  <div class="img">
+                    <img src="asset/img/product/6.jpg" alt="product-1" class="img-responsive">
+                  </div>
+                  <div class="deck">
+                    <h3>Hot Wheels Cars 4</h3>
+                    <span class="quick"><i class="fa fa-clock-o"></i> 3 day, 2 hour, 5 minute</span>
+                  </div>
+                </div>
+              </div>
+              <div class="clearfix"></div>
+                
+              <ul class="pagination pull-right">
+                <li><a href="#"><i class="fa fa-arrow-left"></i></a></li>
+                <li class="active"><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#"><i class="fa fa-arrow-right"></i></a></li>
+              </ul>
+
             </div>
-          <div id="img-preview" class="row"></div>
         </div>
         <!-- SIDEBAR -->
         <div class="col-md-3 sidebar">
-          <h3>Information</h3>
-          <ol>
-            <li>Add File</li>
-            <li>Maximal upload size 500kb</li>
-            <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
-            <li>Accusamus optio veniam velit, laudantium. Odit, facilis.</li>
-          </ol>
+          <h3>Popular Bidder</h3>
         </div>
       </div> <!-- end container -->
 
@@ -305,38 +390,5 @@
       <script src="asset/js/bootstrap.min.js"></script>
       <script src="asset/js/owl.carousel.min.js"></script>
       <script src="asset/js/custom.js"></script>
-      <script type="text/javascript">
-       $(document).ready(function() {
-          if (window.File && window.FileList && window.FileReader) {
-            $("#files").on("change", function(e) {
-              var files = e.target.files,
-                filesLength = files.length;
-              for (var i = 0; i < filesLength; i++) {
-                var f = files[i]
-                var fileReader = new FileReader();
-                fileReader.onload = (function(e) {
-                  var file = e.target;
-                  $("<div class=\"col-md-3 img-upload\">" +
-                    "<div class=\"cover\">" +
-                      "<img class=\"imageThumb img-responsive\" src=\"" + e.target.result + "\" />" +
-                      "<span class=\"remove\"><i class=\"fa fa-times\"></i></span>" +
-                    "</div>" +
-                    "<div class=\"deck\">" +
-                      "<input type=\"text\" placeholder=\"Title\" class=\"form-control input-sm\">" +
-                      "<input type=\"number\" placeholder=\"Starting Bid\" class=\"form-control input-sm\">" +
-                    "</div>" +
-                    "</div>").prependTo("#img-preview");
-                  $(".remove").click(function(){
-                    $(this).parents(".img-upload").remove();
-                  });
-                });
-                fileReader.readAsDataURL(f);
-              }
-            });
-          } else {
-            alert("Your browser doesn't support to File API")
-          }
-        });
-       </script>
     </body>
     </html>

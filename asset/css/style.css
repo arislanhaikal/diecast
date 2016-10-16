@@ -149,6 +149,7 @@ header fieldset[disabled] .form-control {
 /* SLIDER */
 .slider {
 	margin-bottom: 20px;
+	overflow: hidden;
 }
 /* STEPPER */
 .stepper {
@@ -183,12 +184,15 @@ header fieldset[disabled] .form-control {
 }
 /* PRODUCT */
 .nav-tabs {
-	margin-bottom: 10px;
+	margin-bottom: 15px;
+}
+.nav-tabs a {
+	color: #333;
 }
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
 	background-color: #f8f8f8;
-	font-weight: bold;
 	border-radius: 0;
+	color: #ff5722;
 }
 .items {
 	padding: 0 5px;
@@ -254,6 +258,60 @@ header fieldset[disabled] .form-control {
 .items .deck span.quick {
 	background-color: #F44336
 }
+.katalog h2 {
+	margin-right: -10px;
+	margin-left: -10px;
+}
+.katalog article h1 {
+	font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.pagination>li>a, .pagination>li>span {
+	color: #333;
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+	background-color: #FF5722;
+	border-color: #d0d0d0;
+}
+article .detail {
+	background: #fff;
+	border: solid 1px #ddd;
+}
+article .deadline {
+	font-family: "RobotoCondensed-Light";
+	border-bottom: dashed 1px #ddd;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+    display: block;
+}
+article .deadline i {
+	color: red;
+}
+article .starting-bid i {
+	color: #4CAF50;
+}
+article .starting-bid {
+	font-family: "RobotoCondensed-Light";
+}
+article .best-bid {
+	font-size: 30px;
+	border-bottom: dashed 1px #ddd;
+	margin-bottom: 15px;
+	padding-bottom: 10px;
+}
+article .best-bid span {
+	font-size: 14px;
+	font-style: italic;
+	color: #4CAF50;
+}
+article .submit-bid {
+	border-bottom: dashed 1px #ddd;
+	margin-bottom: 15px;
+}
+article .submit-bid button {
+	margin-top:25px;
+}
 /* LOGIN & REGISTER */
 .modal-content {
 	border-radius: 0;
@@ -305,6 +363,15 @@ header fieldset[disabled] .form-control {
 }
 .modal .input-group {
 	margin-bottom: 10px;
+}
+/* SIDEBAR */
+.sidebar h3, .katalog h2 {
+	font-family: "RobotoCondensed-Light";
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-bottom: 2px;
+    border-bottom: solid 1px #ccc;
 }
 /* FOOTER */
 footer {
@@ -371,7 +438,7 @@ footer a {
 	margin: 0 2px;
 }
 .sosmed a:hover, .sosmed a:focus {
-	background-color: #1976D2;
+	background-color: #464646;
 }
 .statistic .detail {
 	font-family: "RobotoCondensed-Light";
