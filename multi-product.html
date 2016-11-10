@@ -38,7 +38,7 @@
             <ul class="nav navbar-nav navbar-right">
               
               <li><a href="#"><button class="btn btn-primary btn-xs" data-toggle="modal" data-target="#register">Register</button></a></li>
-              <li><a href="#"><button class="btn btn-warning btn-xs" data-toggle="modal" data-target="#login">Login</button></a></li>
+              <li><a href="#"><button class="btn btn-success btn-xs" data-toggle="modal" data-target="#login">Login</button></a></li>
 
               <!-- AFTER LOGIN -->
               <!-- <li class="dropdown">
@@ -63,36 +63,13 @@
               <h1>d'cast</h1>
               <h3>Auctions Place Market</h3>
             </div>
-            <div class="col-md-6">
-              <div class="top-contact">
-                <p>
-                  <i class="fa fa-phone"></i> (123) 123321123 <b>|</b> 
-                  <i class="fa fa-envelope"></i> saler@dcast.com
-                </p>
-              </div>
-              <div class="input-group search"> 
-                <div class="input-group-btn"> 
-                  <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Brands &nbsp; <span class="caret"></span></button> 
-                  <ul class="dropdown-menu"> 
-                    <li><a href="#">Action</a></li> 
-                    <li><a href="#">Another action</a></li> 
-                    <li><a href="#">Something else here</a></li> 
-                    <li role="separator" class="divider"></li> 
-                    <li><a href="#">Separated link</a></li> 
-                  </ul> 
-                </div> 
-                <div class="input-group input">
-                  <input type="text" class="form-control" placeholder="Search for...">
-                  <span class="input-group-btn">
-                    <button class="btn btn-default" type="button">Search</button>
-                  </span>
+            <div class="col-md-6 search">
+                <div class="input-group"> 
+                  <input class="form-control" placeholder="Search for..."> 
+                  <span class="input-group-btn"> <button class="btn btn-default" type="button">Search</button> </span> 
                 </div>
-              </div>
             </div>
             <div class="col-md-3 bid-info">
-              <p class="text-right">
-                Total Your Bid
-              </p>
               <div class="input-group"> 
                 <input class="form-control" placeholder="Rp 30.000" value="" aria-describedby="basic-addon" disabled> 
                 <span class="input-group-addon" id="basic-addon"><i class="fa fa-thumbs-up"></i></span> 
@@ -105,7 +82,9 @@
         <!-- PRODUCT -->
         <div class="col-md-9">
           <div class="tab-content katalog">
-              <h2>Hot Wheels Cars 1 Hot Wheels Cars</h2>
+              <h2>Hot Wheels Cars 1 Hot Wheels Cars <span><i class="fa fa-user"></i> arislanhaikal | <i class="fa fa-clock-o"></i> 3 day, 2 hour, 5 minute</span></h2>
+              <p class="description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error dolorum officiis illo sint nisi ex odit hic, ipsum, quaerat pariatur velit quo saepe eligendi fuga omnis dolore, earum. Culpa, earum?</p>
               <div class="row">
                 <div class="col-md-3 items">
                   <div class="img">
@@ -113,8 +92,13 @@
                   </div>
                   <div class="deck">
                     <h3>Hot Wheels Cars 1 Hot Wheels Cars 1</h3>
-                    <p>Starting Bid Rp 5.000</p>
+                    <p>
+                    <b data-toggle="tooltip" data-placement="top" title="Starting bid"><i class="fa fa-play-circle"></i> Rp 5.000</b>
+                    <b class="top-bid" data-toggle="tooltip" data-placement="top" title="Top bidder"><i class="fa fa-star"></i> Rp 10.000</b>
+                    </p>
                     <span class="still"><i class="fa fa-clock-o"></i> 3 day, 2 hour, 5 minute</span>
+                    <input class="form-control input-sm" placeholder="10000" type="number"> 
+                    <button class="btn btn-primary btn-block" type="button">Bid Now!</button>
                   </div>
                 </div>
                 <div class="col-md-3 items">
@@ -123,8 +107,13 @@
                   </div>
                   <div class="deck">
                     <h3>Hot Wheels Cars 2</h3>
-                    <p>Starting Bid Rp 5.000</p>
+                    <p>
+                    <b data-toggle="tooltip" data-placement="top" title="Starting bid"><i class="fa fa-play-circle"></i> Rp 5.000</b>
+                    <b class="top-bid" data-toggle="tooltip" data-placement="top" title="Top bidder"><i class="fa fa-star"></i> Rp 10.000</b>
+                    </p>
                     <span class="long"><i class="fa fa-clock-o"></i> 3 day, 2 hour, 5 minute</span>
+                    <input class="form-control input-sm" placeholder="10000" type="number"> 
+                    <button class="btn btn-primary btn-block" type="button">Bid Now!</button>
                   </div>
                 </div>
                 <div class="col-md-3 items">
@@ -133,8 +122,13 @@
                   </div>
                   <div class="deck">
                     <h3>Hot Wheels Cars 3</h3>
-                    <p>Starting Bid Rp 5.000</p>
+                    <p>
+                    <b data-toggle="tooltip" data-placement="top" title="Starting bid"><i class="fa fa-play-circle"></i> Rp 5.000</b>
+                    <b class="top-bid" data-toggle="tooltip" data-placement="top" title="Top bidder"><i class="fa fa-star"></i> Rp 10.000</b>
+                    </p>
                     <span class="medium"><i class="fa fa-clock-o"></i> 3 day, 2 hour, 5 minute</span>
+                    <input class="form-control input-sm" placeholder="10000" type="number"> 
+                    <button class="btn btn-primary btn-block" type="button">Bid Now!</button>
                   </div>
                 </div>
                 <div class="col-md-3 items">
@@ -143,84 +137,13 @@
                   </div>
                   <div class="deck">
                     <h3>Hot Wheels Cars 4</h3>
-                    <p>Starting Bid Rp 5.000</p>
+                    <p>
+                    <b data-toggle="tooltip" data-placement="top" title="Starting bid"><i class="fa fa-play-circle"></i> Rp 5.000</b>
+                    <b class="top-bid" data-toggle="tooltip" data-placement="top" title="Top bidder"><i class="fa fa-star"></i> Rp 10.000</b>
+                    </p>
                     <span class="quick"><i class="fa fa-clock-o"></i> 3 day, 2 hour, 5 minute</span>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-3 items">
-                  <div class="img">
-                    <img src="asset/img/product/6.jpg" alt="product-1" class="img-responsive">
-                  </div>
-                  <div class="deck">
-                    <h3>Hot Wheels Cars 1</h3>
-                    <span class="still"><i class="fa fa-clock-o"></i> 3 day, 2 hour, 5 minute</span>
-                  </div>
-                </div>
-                <div class="col-md-3 items">
-                  <div class="img">
-                    <img src="asset/img/product/6.jpg" alt="product-1" class="img-responsive">
-                  </div>
-                  <div class="deck">
-                    <h3>Hot Wheels Cars 2</h3>
-                    <span class="long"><i class="fa fa-clock-o"></i> 3 day, 2 hour, 5 minute</span>
-                  </div>
-                </div>
-                <div class="col-md-3 items">
-                  <div class="img">
-                    <img src="asset/img/product/6.jpg" alt="product-1" class="img-responsive">
-                  </div>
-                  <div class="deck">
-                    <h3>Hot Wheels Cars 3</h3>
-                    <span class="medium"><i class="fa fa-clock-o"></i> 3 day, 2 hour, 5 minute</span>
-                  </div>
-                </div>
-                <div class="col-md-3 items">
-                  <div class="img">
-                    <img src="asset/img/product/6.jpg" alt="product-1" class="img-responsive">
-                  </div>
-                  <div class="deck">
-                    <h3>Hot Wheels Cars 4</h3>
-                    <span class="quick"><i class="fa fa-clock-o"></i> 3 day, 2 hour, 5 minute</span>
-                  </div>
-                </div>
-              </div>
-              <div class="row">
-                <div class="col-md-3 items">
-                  <div class="img">
-                    <img src="asset/img/product/6.jpg" alt="product-1" class="img-responsive">
-                  </div>
-                  <div class="deck">
-                    <h3>Hot Wheels Cars 1</h3>
-                    <span class="still"><i class="fa fa-clock-o"></i> 3 day, 2 hour, 5 minute</span>
-                  </div>
-                </div>
-                <div class="col-md-3 items">
-                  <div class="img">
-                    <img src="asset/img/product/6.jpg" alt="product-1" class="img-responsive">
-                  </div>
-                  <div class="deck">
-                    <h3>Hot Wheels Cars 2</h3>
-                    <span class="long"><i class="fa fa-clock-o"></i> 3 day, 2 hour, 5 minute</span>
-                  </div>
-                </div>
-                <div class="col-md-3 items">
-                  <div class="img">
-                    <img src="asset/img/product/6.jpg" alt="product-1" class="img-responsive">
-                  </div>
-                  <div class="deck">
-                    <h3>Hot Wheels Cars 3</h3>
-                    <span class="medium"><i class="fa fa-clock-o"></i> 3 day, 2 hour, 5 minute</span>
-                  </div>
-                </div>
-                <div class="col-md-3 items">
-                  <div class="img">
-                    <img src="asset/img/product/6.jpg" alt="product-1" class="img-responsive">
-                  </div>
-                  <div class="deck">
-                    <h3>Hot Wheels Cars 4</h3>
-                    <span class="quick"><i class="fa fa-clock-o"></i> 3 day, 2 hour, 5 minute</span>
+                    <input class="form-control input-sm" placeholder="10000" type="number"> 
+                    <button class="btn btn-primary btn-block" type="button">Bid Now!</button>
                   </div>
                 </div>
               </div>

@@ -4,4 +4,7 @@ $('.slider').owlCarousel({
     nav:false,
     items:1,
     // autoplay:true
-})
+});
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+});
