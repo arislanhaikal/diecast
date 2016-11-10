@@ -384,8 +384,22 @@ article .submit-bid button {
 	font-weight: normal;
 	color: #888;
 }
-.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover {
+.sidebar .nav-pills>li.active>a,.sidebar .nav-pills>li.active>a:focus,.sidebar .nav-pills>li.active>a:hover {
 	background-color: #f57c00;
+	color: #fff;
+}
+.sidebar .nav-pills>li>a:focus, .sidebar .nav-pills>li>a:hover {
+	background-color: #ddd;
+	color: #f57c00;
+}
+.sidebar .nav-pills>li>a>.badge {
+	float: right;
+}
+.sidebar .badge {
+	background-color: #f57c00;
+}
+.sidebar .nav>li>a {
+	background-color: #eee;
 }
 /* LOGIN & REGISTER */
 .modal-content {
