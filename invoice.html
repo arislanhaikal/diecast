@@ -41,7 +41,13 @@
               <li><a href="#"><button class="btn btn-warning btn-xs" data-toggle="modal" data-target="#login">Login</button></a></li> -->
 
               <!-- AFTER LOGIN -->
-              <li><a href="winner.html"><button class="btn btn-success btn-xs">Notification <span class="badge">10</span></button></a></li>
+              <li class="dropdown">
+                <a href="winner.html" class="dropdown-toggle" data-toggle="dropdown"><button class="btn btn-success btn-xs">Notification <span class="badge">10</span></button></a>
+                <ul class="dropdown-menu" role="menu">
+                  <li><a href="open-bid.html">New Bid <span class="badge pull-right">8</span></a></li>
+                  <li><a href="#">Item Won <span class="badge pull-right">3</span></a></li>
+                </ul>
+              </li>
               <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">arislanhaikal <img src="asset/img/avatar.png" alt="avatar"></a>
                 <ul class="dropdown-menu" role="menu">
@@ -84,31 +90,43 @@
           <h2>Invoice</h2>
           <p>You won 3 items from <b>Lelang A</b> by Ayana Shahab.</p>
           <p>Please send payment within 2x24 hours or you will be <b>BANNED FOREVER</b>. Maximal payment <b>12 November 2016 - 05.00 PM</b></p>
-            <table class="table table-striped" style="border:solid 1px #eee">
+            <table class="table table-fixed" style="border:solid 1px #eee">
             <thead>
               <tr>
-                <th>Product</th>
-                <th class="text-right">Price</th>
+                <th class="col-xs-8">Product</th>
+                <th class="text-right col-xs-4">Price</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td class="title">Hot Wheels Cars 1</td>
-                <td class="idr">Rp. 100.000</td>
+                <td class="title col-xs-8">Hot Wheels Cars 1</td>
+                <td class="idr col-xs-4">Rp. 100.000</td>
               </tr>
               <tr>
-                <td class="title">Hot Wheels Cars 2</td>
-                <td class="idr">Rp. 100.000</td>
+                <td class="title col-xs-8">Hot Wheels Cars 2</td>
+                <td class="idr col-xs-4">Rp. 100.000</td>
               </tr>
               <tr>
-                <td class="title">Hot Wheels Cars 3</td>
-                <td class="idr">Rp. 100.000</td>
+                <td class="title col-xs-8">Hot Wheels Cars 3</td>
+                <td class="idr col-xs-4">Rp. 100.000</td>
+              </tr>
+              <tr>
+                <td class="title col-xs-8">Hot Wheels Cars 1</td>
+                <td class="idr col-xs-4">Rp. 100.000</td>
+              </tr>
+              <tr>
+                <td class="title col-xs-8">Hot Wheels Cars 2</td>
+                <td class="idr col-xs-4">Rp. 100.000</td>
+              </tr>
+              <tr>
+                <td class="title col-xs-8">Hot Wheels Cars 3</td>
+                <td class="idr col-xs-4">Rp. 100.000</td>
               </tr>
             </tbody>
             <thead>
               <tr>
-                <th>Total</th>
-                <th class="text-right">Rp. 300.000</th>
+                <th class="col-xs-8">Total</th>
+                <th class="text-right col-xs-4">Rp. 300.000</th>
               </tr>
             </thead>
           </table>
