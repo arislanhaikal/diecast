@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>invoice - diecast</title>
+  <title>product - diecast</title>
 
   <!-- Templates -->
   <link href="asset/css/bootstrap.min.css" rel="stylesheet">
@@ -36,19 +36,12 @@
               <li><a href="#"><i class="fa fa-info-circle"></i> About</a></li> 
             </ul>
             <ul class="nav navbar-nav navbar-right">
-              <!-- 
+              
               <li><a href="#"><button class="btn btn-primary btn-xs" data-toggle="modal" data-target="#register">Register</button></a></li>
-              <li><a href="#"><button class="btn btn-warning btn-xs" data-toggle="modal" data-target="#login">Login</button></a></li> -->
+              <li><a href="#"><button class="btn btn-success btn-xs" data-toggle="modal" data-target="#login">Login</button></a></li>
 
               <!-- AFTER LOGIN -->
-              <li class="dropdown">
-                <a href="winner.html" class="dropdown-toggle" data-toggle="dropdown"><button class="btn btn-success btn-xs">Notification <span class="badge">10</span></button></a>
-                <ul class="dropdown-menu" role="menu">
-                  <li><a href="new-bid.html">New Bid <span class="badge pull-right">8</span></a></li>
-                  <li><a href="winner.html">Item Won <span class="badge pull-right">3</span></a></li>
-                </ul>
-              </li>
-              <li class="dropdown">
+              <!-- <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">arislanhaikal <img src="asset/img/avatar.png" alt="avatar"></a>
                 <ul class="dropdown-menu" role="menu">
                   <li><a href="open-bid.html">Open Bid</a></li>
@@ -57,7 +50,7 @@
                   <li class="divider"></li>
                   <li><a href="#">Logout</a></li>
                 </ul>
-              </li>
+              </li> -->
 
             </ul> 
           </div> 
@@ -86,91 +79,103 @@
         </div>
       </header>
       <div class="container">
-        <div class="col-md-9 winner">
-          <h2>Invoice</h2>
-          <p>You won 3 items from <b>Lelang A</b> by Ayana Shahab.</p>
-          <p>Please send payment within 2x24 hours or you will be <b>BANNED FOREVER</b>. Maximal payment <b>12 November 2016 - 05.00 PM</b></p>
-            <table class="table table-fixed" style="border:solid 1px #eee">
-            <thead>
-              <tr>
-                <th class="col-xs-8">Product</th>
-                <th class="text-right col-xs-4">Price</th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr>
-                <td class="title col-xs-8">Hot Wheels Cars 1</td>
-                <td class="idr col-xs-4">Rp. 100.000</td>
-              </tr>
-              <tr>
-                <td class="title col-xs-8">Hot Wheels Cars 2</td>
-                <td class="idr col-xs-4">Rp. 100.000</td>
-              </tr>
-              <tr>
-                <td class="title col-xs-8">Hot Wheels Cars 3</td>
-                <td class="idr col-xs-4">Rp. 100.000</td>
-              </tr>
-              <tr>
-                <td class="title col-xs-8">Hot Wheels Cars 1</td>
-                <td class="idr col-xs-4">Rp. 100.000</td>
-              </tr>
-              <tr>
-                <td class="title col-xs-8">Hot Wheels Cars 2</td>
-                <td class="idr col-xs-4">Rp. 100.000</td>
-              </tr>
-              <tr>
-                <td class="title col-xs-8">Hot Wheels Cars 3</td>
-                <td class="idr col-xs-4">Rp. 100.000</td>
-              </tr>
-            </tbody>
-            <thead>
-              <tr>
-                <th class="col-xs-8">Total</th>
-                <th class="text-right col-xs-4">Rp. 300.000</th>
-              </tr>
-            </thead>
-          </table>
-          <div class="row">
-            <div class="col-md-6">
-              <div class="invoice-alert">
-                <h4>No Rekening</h4>
-                <table>
-                  <tr>
-                    <td width="30%"><b>Bank</b></td> 
-                    <td width="36%"><b>Name</b></td>
-                    <td width="33%"><b>Number</b></td>
-                  </tr>
-                  <tr>
-                    <td width="30%">BCA</td> 
-                    <td width="36%">Robert Downey</td>
-                    <td width="33%">123 123 123 123</td>
-                  </tr>
-                  <tr>
-                    <td width="30%">Mandiri</td> 
-                    <td width="36%">Robert Downey</td>
-                    <td width="33%">123 123 123 123</td>
-                  </tr>
-                </table>
-              </div>
+        <!-- PRODUCT -->
+        <div class="col-md-9 katalog">
+            <div class="row" style="background: #fff;padding-top:15px;padding-bottom:15px;margin-bottom: 20px;">
+              <center>
+                <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRbezqZpEuwGSvitKy3wrwnth5kysKdRqBW54cAszm_wiutku3R" name="aboutme" width="140" height="140" border="0" class="img-circle">
+                <h3 class="media-heading">Joe Sixpack <small>USA</small></h3>
+                    <span class="label label-warning">HTML5/CSS</span>
+                    <span class="label label-info">Adobe CS 5.5</span>
+                    <span class="label label-info">Microsoft Office</span>
+                    <span class="label label-success">Windows XP, Vista, 7</span>
+                </center>
+                <hr>
+                <center style="padding-left: 15px;padding-right: 15px;">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sem dui, tempor sit amet commodo a, vulputate vel tellus.
+                </center>
             </div>
-            <div class="col-md-6">
-              <div class="invoice">
-                <h4>Bukti Pembayaran</h4>
-                <label class="btn btn-md btn-block btn-danger">
-                  <i class="fa fa-upload"></i> Upload Bukti Pembayaran <input type="file" id="files" name="files[]" style="display: none;" multiple="">
-                </label>
-                <a href="invoice.html"><button class="btn btn-primary btn-block" style="margin-top:10px;">Selesai</button></a>
+              <h2>Hot Wheels Cars 1 Hot Wheels Cars <span><i class="fa fa-user"></i> arislanhaikal | <i class="fa fa-clock-o"></i> 3 day, 2 hour, 5 minute</span></h2>
+              <p class="description">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error dolorum officiis illo sint nisi ex odit hic, ipsum, quaerat pariatur velit quo saepe eligendi fuga omnis dolore, earum. Culpa, earum?</p>
+              <div class="row">
+                <div class="col-md-3 items">
+                  <div class="img">
+                    <img src="asset/img/product/6.jpg" alt="product-1" class="img-responsive">
+                  </div>
+                  <div class="deck">
+                    <h3>Hot Wheels Cars 1 Hot Wheels Cars 1</h3>
+                    <p>
+                    <b data-toggle="tooltip" data-placement="top" title="Starting bid"><i class="fa fa-play-circle"></i> Rp 5.000</b>
+                    <b class="top-bid" data-toggle="tooltip" data-placement="top" title="Top bidder"><i class="fa fa-star"></i> Rp 10.000</b>
+                    </p>
+                    <span class="still"><i class="fa fa-clock-o"></i> 3 day, 2 hour, 5 minute</span>
+                    <input class="form-control input-sm" placeholder="10000" type="number"> 
+                    <button class="btn btn-primary btn-block" type="button">Bid Now!</button>
+                  </div>
+                </div>
+                <div class="col-md-3 items">
+                  <div class="img">
+                    <img src="asset/img/product/6.jpg" alt="product-1" class="img-responsive">
+                  </div>
+                  <div class="deck">
+                    <h3>Hot Wheels Cars 2</h3>
+                    <p>
+                    <b data-toggle="tooltip" data-placement="top" title="Starting bid"><i class="fa fa-play-circle"></i> Rp 5.000</b>
+                    <b class="top-bid" data-toggle="tooltip" data-placement="top" title="Top bidder"><i class="fa fa-star"></i> Rp 10.000</b>
+                    </p>
+                    <span class="long"><i class="fa fa-clock-o"></i> 3 day, 2 hour, 5 minute</span>
+                    <input class="form-control input-sm" placeholder="10000" type="number"> 
+                    <button class="btn btn-primary btn-block" type="button">Bid Now!</button>
+                  </div>
+                </div>
+                <div class="col-md-3 items">
+                  <div class="img">
+                    <img src="asset/img/product/6.jpg" alt="product-1" class="img-responsive">
+                  </div>
+                  <div class="deck">
+                    <h3>Hot Wheels Cars 3</h3>
+                    <p>
+                    <b data-toggle="tooltip" data-placement="top" title="Starting bid"><i class="fa fa-play-circle"></i> Rp 5.000</b>
+                    <b class="top-bid" data-toggle="tooltip" data-placement="top" title="Top bidder"><i class="fa fa-star"></i> Rp 10.000</b>
+                    </p>
+                    <span class="medium"><i class="fa fa-clock-o"></i> 3 day, 2 hour, 5 minute</span>
+                    <input class="form-control input-sm" placeholder="10000" type="number"> 
+                    <button class="btn btn-primary btn-block" type="button">Bid Now!</button>
+                  </div>
+                </div>
+                <div class="col-md-3 items">
+                  <div class="img">
+                    <img src="asset/img/product/6.jpg" alt="product-1" class="img-responsive">
+                  </div>
+                  <div class="deck">
+                    <h3>Hot Wheels Cars 4</h3>
+                    <p>
+                    <b data-toggle="tooltip" data-placement="top" title="Starting bid"><i class="fa fa-play-circle"></i> Rp 5.000</b>
+                    <b class="top-bid" data-toggle="tooltip" data-placement="top" title="Top bidder"><i class="fa fa-star"></i> Rp 10.000</b>
+                    </p>
+                    <span class="quick"><i class="fa fa-clock-o"></i> 3 day, 2 hour, 5 minute</span>
+                    <input class="form-control input-sm" placeholder="10000" type="number"> 
+                    <button class="btn btn-primary btn-block" type="button">Bid Now!</button>
+                  </div>
+                </div>
               </div>
-            </div>
-          </div>
+              <div class="clearfix"></div>
+                
+              <ul class="pagination pull-right">
+                <li><a href="#"><i class="fa fa-arrow-left"></i></a></li>
+                <li class="active"><a href="#">1</a></li>
+                <li><a href="#">2</a></li>
+                <li><a href="#">3</a></li>
+                <li><a href="#">4</a></li>
+                <li><a href="#">5</a></li>
+                <li><a href="#"><i class="fa fa-arrow-right"></i></a></li>
+              </ul>
+
         </div>
         <!-- SIDEBAR -->
         <div class="col-md-3 sidebar">
-          <h3>Notification</h3>
-          <ul class="nav nav-pills nav-stacked">
-            <li class="active"><a href="winner.html">Winner <span class="badge">3</span></a></li>
-            <li><a href="new-bid.html">New Bid <span class="badge">8</span></a></li>
-          </ul>
+          <h3>Popular Bidder</h3>
         </div>
       </div> <!-- end container -->
 
